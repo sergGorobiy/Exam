@@ -15,4 +15,97 @@ body .brands {
   width: 100%;
   height: 220px;
 }
+
+body .preFooter {
+  padding-top: 90px;
+  height: 375px;
+}
+
+body .preFooter .card {
+  border: none;
+  height: 220px;
+  padding-right: 40px;
+}
+
+body .preFooter .card h1 {
+  color: #48689a;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+body .preFooter .card h2 {
+  font-size: 14px;
+  margin-bottom: 40px;
+  font-weight: 200;
+}
+
+body .preFooter .card h3 {
+  margin-bottom: 14px;
+  padding-top: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+body .preFooter .card p {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: 200;
+}
+
+body .preFooter .card .images {
+  height: 60px;
+  width: 262px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .preFooter .card .images img {
+  width: 58px;
+  height: 60px;
+}
+
+body .preFooter .card .payCards {
+  margin-top: 20px;
+  height: 75px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+body .preFooter .card .payCards img {
+  padding-right: 12px;
+  width: 45px;
+  height: 25px;
+}
+
+body footer .link a {
+  color: #3c4852;
+  font-size: 21px;
+  padding: 0 10px;
+}
+
+body footer .link a:hover {
+  color: #48689a;
+}
+
+body footer .copyrights {
+  height: 40px;
+  margin-top: 60px;
+  background-color: #48689a;
+}
+
+body footer .copyrights h4 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
 /*# sourceMappingURL=style_main.css.map */
