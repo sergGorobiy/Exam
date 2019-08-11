@@ -8,6 +8,121 @@ body {
   background-color: #fff;
   padding: 0;
   margin: 0;
+  color: #49545e;
+  font-family: "Roboto Slab", serif;
+}
+
+body header .navigation {
+  background-color: #48689a;
+}
+
+body header .navigation .navFirst {
+  padding-top: 14px;
+}
+
+body header .navigation .navFirst .contacts {
+  width: 50%;
+}
+
+body header .navigation .navFirst .contacts span {
+  padding-right: 25px;
+}
+
+body header .navigation .navFirst .contacts span a {
+  color: #e3e5e8;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+body header .navigation .navFirst .settings {
+  width: 50%;
+}
+
+body header .navigation .navFirst .settings a {
+  color: #e3e5e8;
+  padding: 0 20px 0 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+body header .navigation .search input, body header .navigation .search button {
+  margin-right: -5px;
+  background-color: #48689a;
+  border: none;
+  border-bottom: 1px solid #9aa6b9;
+  outline: none;
+  color: #fff;
+}
+
+body header .navigation .search input::-webkit-input-placeholder, body header .navigation .search button::-webkit-input-placeholder {
+  color: #9aa6b9;
+}
+
+body header .navigation .search input:-ms-input-placeholder, body header .navigation .search button:-ms-input-placeholder {
+  color: #9aa6b9;
+}
+
+body header .navigation .search input::-ms-input-placeholder, body header .navigation .search button::-ms-input-placeholder {
+  color: #9aa6b9;
+}
+
+body header .navigation .search input::placeholder, body header .navigation .search button::placeholder {
+  color: #9aa6b9;
+}
+
+body header .navigation .search button {
+  color: #9aa6b9;
+}
+
+body header .navigation .navSecond {
+  height: 52px;
+  padding-bottom: 15px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+body header .navigation .navSecond .logo {
+  height: 52px;
+  color: #00cdc6;
+  padding: 0px 25px;
+  font-size: 30px;
+  border: 2px solid #00cdc6;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+body header .navigation .navSecond .menu a {
+  color: #e3e5e8;
+  padding: 0 20px 0 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+body header .navigation .navSecond .shop {
+  color: #e3e5e8;
+  height: 48px;
+  padding-right: 45px;
+}
+
+body header .navigation .navSecond .shop span {
+  padding-right: 10px;
+}
+
+body header .navigation .navSecond .shop span i {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #e3e5e8;
+  border-radius: 50%;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .brands {
@@ -28,15 +143,18 @@ body .preFooter .card {
 }
 
 body .preFooter .card h1 {
+  margin-top: -15px;
   color: #48689a;
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
 }
 
 body .preFooter .card h2 {
   font-size: 14px;
   margin-bottom: 40px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 body .preFooter .card h3 {
@@ -44,12 +162,24 @@ body .preFooter .card h3 {
   padding-top: 4px;
   font-size: 16px;
   text-transform: uppercase;
+  font-weight: 400;
 }
 
-body .preFooter .card p {
+body .preFooter .card a {
   font-size: 14px;
   margin-bottom: 4px;
-  font-weight: 200;
+  font-weight: 300;
+  color: #49545e;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .preFooter .card a:hover {
+  color: #48689a;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 body .preFooter .card .images {
